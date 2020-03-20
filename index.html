@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css">
+       
+    <title>Change the Color!</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="colorChangeText"> Change the Color !</h1>
+        <div class="flex-box-container"> 
+            <form action="">
+                <select name="backdrop" id="background" onchange="btnChng(this)">
+                <option value="reset"> Reset </option>
+                <option value="red"> Red </option>
+                <option value="green"> Green </option>
+                <option value="yellow"> Yellow </option>
+                <option value="blue"> Blue </option>
+                <option value="random"> Random </option>
+                </select>
+            </form>
+            <button class="btn btn-primary">Wee</button>
+            <button class="btn btn-warning">Yahoo</button>
+            <button class="btn btn-danger">Google</button>
+            <button class="btn btn-success">Facebook</button>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
